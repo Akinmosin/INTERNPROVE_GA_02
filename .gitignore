@@ -1,0 +1,25 @@
+# Ignore system files
+../*
+
+# Ignore virtual environment
+venv/
+
+# Ignore cached files
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Ignore model output directories
+models/
+
+# Ignore other user folders
+.VirtualBox/
+.android/
+AppData/
+Contacts/
+Desktop/
+Documents/
+Downloads/
+Pictures/
+Videos/
