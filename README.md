@@ -1,3 +1,4 @@
+
 # GPT-2 Fine-Tuning and Text Generation
 
 This project demonstrates how to fine-tune a GPT-2 model using the Hugging Face `transformers` library for generative AI tasks. The model is trained on custom data to generate coherent and contextually relevant text based on prompts.
@@ -29,10 +30,10 @@ Before running the scripts, ensure you have the following dependencies installed
 - `torch`
 - `datasets`
 
-To install the required packages, run:
+## To install the required packages, run:
 
+```bash
 pip install -r requirements.txt
-
 Fine-Tuning the Model
 To fine-tune the GPT-2 model on the custom dataset, run the following command:
 
@@ -45,7 +46,7 @@ After fine-tuning, you can generate text using the fine-tuned model. Use the fol
 python scripts/generate_text.py
 This script will load the model and generate text based on a prompt provided in the script. You can modify the prompt or change the generation parameters as needed.
 
-Project Structure
+# Project Structure
 
 INTERNPROVE_GA_02/
 │
@@ -61,7 +62,7 @@ INTERNPROVE_GA_02/
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-3. **Save the File**.
+# Save the File.
 
 ### Step 2: Commit and Push the Changes
 
@@ -86,11 +87,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ### Step 3: Verify on GitHub
 
 1. **Go to Your Repository**:
-   - Open GitHub in your browser, go to your repository, and check if the `README.md` has been updated with the new information.
-
-
-
-
-
-
-
+   ## Open GitHub in your browser, go to your repository, and check if the `README.md` has been updated with the new information.
